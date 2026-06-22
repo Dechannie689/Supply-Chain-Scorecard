@@ -12,23 +12,10 @@ Procurement teams managing multiple suppliers often rely on ad-hoc spreadsheets 
 
 This project built a pipeline that ingests supplier data from ERP systems and SharePoint survey forms via Fabric Pipeline and Dataflow, stores it in OneLake, and transforms it through Notebooks to produce master files powering a semantic model in Power BI. The scorecard evaluates each supplier across eight weighted dimensions: Delivery, Quality, Finance, Development, Machinery, Communication, Operation, and Sustainability.
 
-For 2024, Supplier A leads with a total score of 83, followed by Supplier E (74), Supplier C (73), Supplier D (71), and Supplier B (67). Supplier A's strength is particularly evident in Sustainability (14%) and Delivery, while Supplier B's elevated Machinery score (11%) is offset by weaker results in Communication and Sustainability — giving category managers actionable data to drive supplier development conversations.
-
 ---
 
 ## 🏗️ Architecture
 ![](https://github.com/Dechannie689/SUPPLY-CHAIN-SCORECARD/blob/main/Supply%20Chain%20Scorecard.png)
-
-### Pipeline stages
-
-| Stage | Tool / Technology |
-|-------|------------------|
-| Source | ERP system, SharePoint (survey form links) |
-| Ingestion | Fabric Pipeline, Dataflow — uploads files into Lakehouse / OneLake |
-| Processing | Databricks Notebooks — data accuracy scoring, missing data assessment, text/numerical standardization, transformation to consistent format |
-| Storage | Microsoft Fabric Lakehouse / OneLake (Delta tables) |
-| Orchestration | Fabric Pipeline |
-| Serving / BI | Power BI Semantic Model — Supply Chain Scorecard Dashboard |
 
 ---
 
