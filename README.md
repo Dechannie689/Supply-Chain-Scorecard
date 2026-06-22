@@ -35,9 +35,9 @@ This project built a pipeline that ingests supplier data from ERP systems and Sh
 
 ## 📊 Dashboard & Key Metrics
 
-The dashboard is used by procurement managers and category buyers to assess and rank suppliers on an annual basis across eight performance dimensions. The stacked bar format lets teams instantly see which criteria drive a supplier's total score, supporting structured supplier development plans and contract renewal decisions.
+The dashboard is used by procurement managers and employees to assess and rank suppliers on an annual basis across eight performance dimensions. The stacked bar format lets teams instantly see which criteria drive a supplier's total score, supporting structured supplier development plans and contract renewal decisions.
 
-[View the full dashboard PDF](https://github.com/Dechannie689/SUPPLY-CHAIN-SCORECARD/blob/main/UA_SUPPLY_CHAIN_SCORECARD.pdf)
+[View the full dashboard PDF](https://github.com/Dechannie689/Supply-Chain-Scorecard/blob/main/UA_SUPPLY_CHAIN_SCORECARD.pdf)
 
 ---
 
