@@ -15,7 +15,7 @@ This project built a pipeline that ingests supplier data from ERP systems and Sh
 ---
 
 ## 🏗️ Architecture
-![](https://github.com/Dechannie689/SUPPLY-CHAIN-SCORECARD/blob/main/Supply%20Chain%20Scorecard.png)
+![](https://github.com/Dechannie689/Supply-Chain-Scorecard/blob/main/Supply%20Chain%20Scorecard.png)
 
 ---
 
